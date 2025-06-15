@@ -1,5 +1,6 @@
 
 cli.py
+!gridflex_cli/cli.py
 m
 notebooks/*png
 /main.py

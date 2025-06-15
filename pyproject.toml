@@ -9,17 +9,10 @@ authors = [{name = "GridFlex", email = "dasenbrockjw@gmail.com"}]
 description = "Project Description"
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = [
-    "GitPython",
-    "jinja2>=3.0",
-    "codenamize",
-    "pytest",
-    "pandas",
-    "matplotlib",
-]
+dependencies = []
 
 [project.scripts]
-zero-ai-dev-framework = "gridflex.cli:main"
+gridflex-cli = "gridflex_cli.cli:main"
 
 [tool.setuptools.packages.find]
-include = ["gridflex-cli"]
+include = ["gridflex", "gridflex_cli"]
